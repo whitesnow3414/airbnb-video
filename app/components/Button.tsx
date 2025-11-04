@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
 	return (
 		<button
-			onClick={onclick}
+			onClick={onClick}
 			disabled={disabled}
 			className={`
 				relative
@@ -48,7 +48,6 @@ const Button: React.FC<ButtonProps> = ({
 						top-3
 					"
 				>
-
 				</Icon>
 			)}
 			{label}
